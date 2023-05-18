@@ -26,7 +26,7 @@ public class Main {
         //KÌ VỌNG: MONG HÀM SẼ TRẢ VỀ VALUE TRẢ VỀ TỪ HÀM NÀO ĐÓ ỨNG VỚI INPUT Ở TRÊN
         //SO SÁNH ĐỂ XEM KẾT QUẢ CÓ NHƯ KÌ VỌNG HAY KO
         
-        long expected = 120;    //tao kì vọng hàm ói về 120 nếu tính 5!
+        long expected = 120;    //t kì vọng hàm trả về 120 nếu tính 5!
         int n = 5;
         long actual = MathUtil.getFactorial(5);
         System.out.println("5! = " + expected +" expected");

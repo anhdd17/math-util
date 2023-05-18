@@ -33,7 +33,7 @@ public class MathUtilDDTTest {
         };
     }
     
-    //loop qua từng dòng của mảng, ta vẫn cần gán từng value của cột vào biến tương ứng input, expected để lát hồi feed cho hàm
+    //loop qua từng dòng của mảng, ta vẫn cần gán từng value của cột vào biến tương ứng input, expected để feed cho hàm
     
     @Parameterized.Parameter(value = 0) //value = 0 là map với mảng 
     public int n;//biến map với value của cột 0 của mảng
